@@ -46,7 +46,6 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 ## 📝 Open-Source Plan
  - [x] Image Inpainting & Extrapolation Code
  - [x] Fast Sampling with Max Logit-based Cache
- - [ ] Gradio Demo
  - [ ] Bechmark Evaluation Code
  - [x] Fine-Tuning Code
  - [ ] Self-GRPO Training Code
@@ -325,20 +324,8 @@ python inference/inference_mmu.py \
     --output_dir output/outputs_text_understanding
 ```
 
-
-## 💬 Discussion
-You can reach us with this WeChat QR code!
-<p align="left">
- <img src="./assets/wechat.jpeg" width="35%"/>
- <br>
-</p>
-
 ## 📜 Acknowledgements
 This work was also supported and implemented by [MindSpeed MM](https://gitee.com/ascend/MindSpeed-MM), an open-source training framework for large-scale multimodal models designed for distributed training, developed and maintained by Huawei's Computing Product Line. Specifically Optimized for Huawei‘s Ascend AI chips, MindSpeed MM offers comprehensive support for distributed training and is tailored for a wide range of multimodal tasks.
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Alpha-VLLM/Lumina-DiMOO&type=Date)](https://www.star-history.com/#Alpha-VLLM/Lumina-DiMOO&Date)
 
 ## 📖 BibTeX
 ```
