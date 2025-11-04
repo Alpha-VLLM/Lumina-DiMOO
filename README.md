@@ -7,7 +7,7 @@
 
   [[📑 Technical Report ](http://arxiv.org/abs/2510.06308)] &emsp; [[🌐 Project Page (Demo & Benchmark)](https://synbol.github.io/Lumina-DiMOO/)] &emsp; [[🤗 Model ](https://huggingface.co/Alpha-VLLM/Lumina-DiMOO)]
  
- <b>¹Shanghai AI Laboratory, ²Shanghai Innovation Institute, ³Shanghai Jiao Tong University, ⁴Nanjing University </b>
+ <b>¹Shanghai Innovation Institute, ²Shanghai AI Laboratory, ³Shanghai Jiao Tong University, ⁴Nanjing University </b>
  
  <b>⁵The University of Sydney, ⁶The Chinese University of Hong Kong, ⁷Tsinghua University</b>
 
