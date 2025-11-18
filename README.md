@@ -46,6 +46,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 ## 📝 Open-Source Plan
  - [x] Image Inpainting & Extrapolation Code
  - [x] Fast Sampling with Max Logit-based Cache
+ - [x] Diffusers and ComfyUI.
  - [ ] Bechmark Evaluation Code
  - [x] Fine-Tuning Code
  - [ ] Self-GRPO Training Code
