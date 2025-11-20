@@ -49,7 +49,6 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
  - [x] Diffusers and ComfyUI.
  - [ ] Bechmark Evaluation Code
  - [x] Fine-Tuning Code
- - [ ] Self-GRPO Training Code
  - [x] Technical Report
 
 ## 📽️ Qualitative Results
