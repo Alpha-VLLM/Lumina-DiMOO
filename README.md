@@ -30,6 +30,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 
 
 ## 🔥 News
+- **[2025-11-27]** 🎉 We have released the evaluation code using VLMEvalKit.
 - **[2025-10-24]** 🎉 We have released a guide for those who want to build worlds with the mask paradigm, see more details at [ArXiv](https://arxiv.org/abs/2510.20668) and [Github](https://github.com/M-E-AGI-Lab/Awesome-World-Models).
 - **[2025-10-21]** 🎉🎉🎉 We’ve added support for [Diffusers](https://github.com/qianyu-dlut/diffusers/blob/main/Lumina_DiMOO_README.md) and [ComfyUI](https://github.com/L-Hugh/ComfyUI-Lumina-DiMOO).
 - **[2025-10-06]** Training code is released.
@@ -47,7 +48,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
  - [x] Image Inpainting & Extrapolation Code
  - [x] Fast Sampling with Max Logit-based Cache
  - [x] Diffusers and ComfyUI
- - [ ] Bechmark Evaluation Code
+ - [x] Bechmark Evaluation Code
  - [x] Fine-Tuning Code
  - [x] Technical Report
 
@@ -322,6 +323,44 @@ python inference/inference_mmu.py \
     --block_length 32 \
     --vae_ckpt Alpha-VLLM/Lumina-DiMOO \
     --output_dir output/outputs_text_understanding
+```
+
+## 📊 Benchmark Evaluation
+
+We utilize the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) from OpenCompass to evaluate **Lumina_DiMOO** across multiple benchmarks.
+
+### 1. Preparation
+Navigate to the `VLMEvalKit` directory and install the required dependencies:
+
+```bash
+cd VLMEvalKit
+pip install -r requirements.txt
+```
+### 2. Supported Benchmarks
+We support evaluation on the following 5 benchmarks. Please use the corresponding **Data Name** in the command arguments:
+
+| Benchmark | Data Name (`--data`) |
+| :--- | :--- |
+| **POPE** | `POPE` |
+| **MME** | `MME` |
+| **MMBench** | `MMBench_DEV_EN` |
+| **SEEDBench** | `SEEDBench_IMG` |
+| **MMMU** | `MMMU_DEV_VAL` |
+
+### 3. Run Evaluation
+You can perform the evaluation using either a single GPU or multiple GPUs.
+
+**Single GPU Evaluation:**
+```bash
+python3 run.py --data MMMU_DEV_VAL --model Lumina_DiMOO --verbose
+```
+
+**Multi-GPU Evaluation (8 GPUs):**
+```bash
+torchrun --nproc-per-node=8 --master_port=29500 run.py \
+    --data MMMU_DEV_VAL \
+    --model Lumina_DiMOO \
+    --verbose
 ```
 
 ## 📜 Acknowledgements
