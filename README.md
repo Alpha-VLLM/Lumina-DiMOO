@@ -325,7 +325,7 @@ python inference/inference_mmu.py \
     --output_dir output/outputs_text_understanding
 ```
 
-## 📊 Benchmark Evaluation
+## 🏆 Benchmark Evaluation
 
 We utilize the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) from OpenCompass to evaluate **Lumina_DiMOO** across multiple benchmarks.
 
@@ -336,6 +336,7 @@ Navigate to the `VLMEvalKit` directory and install the required dependencies:
 cd VLMEvalKit
 pip install -r requirements.txt
 ```
+ **⚠️ Important Note:** We utilize an LLM as the judge model for answer matching. Before running the evaluation, you need edit the `VLMEvalKit/.env` file to fill in your `OPENAI_API_KEY` and `OPENAI_API_BASE`.
 ### 2. Supported Benchmarks
 We support evaluation on the following 5 benchmarks. Please use the corresponding **Data Name** in the command arguments:
 
