@@ -30,9 +30,10 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 
 
 ## 🔥 News
-- **[2025-11-27]** 🎉 We have released the evaluation code using VLMEvalKit.
+- **[2025-11-27]** We have designed a unique Test-Time Scaling algorithm for Diffusion MLLM. See more details at [ArXiv](https://arxiv.org/abs/2512.19433).
+- **[2025-11-27]** We have released the evaluation code using VLMEvalKit.
 - **[2025-10-24]** 🎉 We have released a guide for those who want to build worlds with the mask paradigm, see more details at [ArXiv](https://arxiv.org/abs/2510.20668) and [Github](https://github.com/M-E-AGI-Lab/Awesome-World-Models).
-- **[2025-10-21]** 🎉🎉🎉 We’ve added support for [Diffusers](https://github.com/qianyu-dlut/diffusers/blob/main/Lumina_DiMOO_README.md) and [ComfyUI](https://github.com/L-Hugh/ComfyUI-Lumina-DiMOO).
+- **[2025-10-21]** 🎉 We’ve added support for [Diffusers](https://github.com/qianyu-dlut/diffusers/blob/main/Lumina_DiMOO_README.md) and [ComfyUI](https://github.com/L-Hugh/ComfyUI-Lumina-DiMOO).
 - **[2025-10-06]** Training code is released.
 - **[2025-09-25]** We have released the Technical Report.
 - **[2025-09-20]** 🎉 In the latest [UniGenBench Leaderboard](https://huggingface.co/spaces/CodeGoat24/UniGenBench_Leaderboard)(maintained by Tencent Hunyuan Team), Lumina-DiMOO's generation evaluation ranks 1st 🥇 among all open-source unified models. 
@@ -51,6 +52,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
  - [x] Bechmark Evaluation Code
  - [x] Fine-Tuning Code
  - [x] Technical Report
+ - [ ] Test-Time Scaling
 
 ## 📽️ Qualitative Results
 Here we present some comparative generation results with other models. **For additional visualization results, please see our [Project Page](https://synbol.github.io/Lumina-DiMOO/).**
