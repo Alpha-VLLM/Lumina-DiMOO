@@ -380,7 +380,7 @@ This work was also supported and implemented by [MindSpeed MM](https://gitee.com
 
 @article{xin2025dmllm,
   title={dMLLM-TTS: Self-Verified and Efficient Test-Time Scaling for Diffusion Multi-Modal Large Language Models},
-  author={Xin,Yi and Luo, Siqi and Qin, Qi and Chen, Haoxing and Zhu, Kaiwen and Zhang, Zhiwei and He, Yangfan and Zhang, Rongchao and Bai, Jinbin and Cao, Shuo and others},
+  author={Xin, Yi and Luo, Siqi and Qin, Qi and Chen, Haoxing and Zhu, Kaiwen and Zhang, Zhiwei and He, Yangfan and Zhang, Rongchao and Bai, Jinbin and Cao, Shuo and others},
   journal={arXiv preprint arXiv:2512.19433},
   year={2025}
 }
