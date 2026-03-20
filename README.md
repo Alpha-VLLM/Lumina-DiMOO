@@ -30,6 +30,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 
 
 ## 🔥 News
+- **[2026-02-26]** 🎉 Our dMLLM-TTS is accepted by CVPR 2026.
 - **[2025-12-23]** We have designed a unique Test-Time Scaling algorithm for Diffusion MLLM. See more details at [ArXiv (dMLLM-TTS)](https://arxiv.org/abs/2512.19433).
 - **[2025-11-27]** We have released the evaluation code using VLMEvalKit.
 - **[2025-10-24]** 🎉 We have released a guide for those who want to build worlds with the mask paradigm, see more details at [ArXiv](https://arxiv.org/abs/2510.20668) and [Github](https://github.com/M-E-AGI-Lab/Awesome-World-Models).
