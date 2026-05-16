@@ -8,10 +8,6 @@
   <img src="./assets/insight-1.png" width="95%"/>
 </p>
 
-## News
-
-- **[2026-05-14]** We release the project preview with key figures, cases, and experimental results. Full code will be open-sourced soon.
-
 ## Method
 
 HT-GRPO uses a **Sketch-Then-Paint** training scheme:
