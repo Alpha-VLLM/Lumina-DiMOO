@@ -30,6 +30,7 @@ We introduce Lumina-DiMOO, an omni foundational model for seamless multimodal ge
 
 
 ## 🔥 News
+- **[2026-05-16]** We have released our paper **HT-GRPO**. See more details at [ArXiv (HT-GRPO)](Null).
 - **[2026-02-26]** 🎉 Our dMLLM-TTS is accepted by CVPR 2026.
 - **[2025-12-23]** We have designed a unique Test-Time Scaling algorithm for Diffusion MLLM. See more details at [ArXiv (dMLLM-TTS)](https://arxiv.org/abs/2512.19433).
 - **[2025-11-27]** We have released the evaluation code using VLMEvalKit.
